@@ -71,3 +71,39 @@ export async function likePlan(planId: string, userId: string) {
     throw new Error(data.message || "No se pudo dar me gusta");
   }
 }
+
+
+// Crea un plan en el back y devuelve su id
+export async function createPlan(
+  name: string,
+  estimatedPrice: number,
+  address: string,
+  image: string,
+  description: string,
+  estimatedTime: number,
+  recomendations: string,
+  creatorId: string
+) {
+  const response = await fetch(`${API_URL}/plans`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      name,
+      estimatedPrice,
+      address,
+      image,
+      description,
+      estimatedTime,
+      recomendations,
+      creatorId,
+    }),
+  });
+
+  const data = await response.json();
+
+  if (!response.ok) {
+    throw new Error(data.message || "No se pudo crear el plan");
+  }
+
+  return data.id;
+}

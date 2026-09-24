@@ -1,0 +1,81 @@
+{
+    "nav": {
+        "appName": "Voyage",
+        "tagline": "厳選された発見",
+        "myTrips": "マイトリップ",
+        "exploreActivities": "アクティビティを探す",
+        "profileAndFriends": "プロフィールと友達",
+        "help": "ヘルプ",
+        "signOut": "ログアウト"
+    },
+    "auth": {
+        "login": {
+            "title": "おかえりなさい",
+            "emailLabel": "メールアドレス",
+            "emailPlaceholder": "you@company.com",
+            "passwordLabel": "パスワード",
+            "showPassword": "パスワードを表示",
+            "hidePassword": "パスワードを隠す",
+            "forgotPassword": "パスワードをお忘れですか",
+            "submit": "ログイン",
+            "noAccount": "アカウントをお持ちでないですか?",
+            "signUp": "新規登録",
+            "submitting": "ログイン中"
+        },
+        "register": {
+            "emailLabel": "メールアドレス",
+            "emailPlaceholder": "you@company.com",
+            "passwordLabel": "パスワード",
+            "usernameLabel": "ユーザー名",
+            "usernamePlaceholder": "Fah123",
+            "nameLabel": "名",
+            "namePlaceholder": "君",
+            "lastNameLabel": "姓",
+            "lastNamePlaceholder": "たち",
+            "submit": "登録",
+            "submitting": "登録中"
+        },
+        "forgotPassword": {
+            "instructions": "登録済みのメールアドレスを入力してください:",
+            "emailLabel": "メールアドレス",
+            "emailPlaceholder": "you@company.com",
+            "submit": "コードを取得",
+            "submitting": "送信中"
+        },
+        "resetPassword": {
+            "codeLabel": "コード",
+            "passwordLabel": "パスワード",
+            "confirmPasswordLabel": "パスワードを確認",
+            "passwordsDontMatch": "パスワードが一致しません",
+            "submit": "パスワードを再設定",
+            "submitting": "再設定中"
+        }
+    },
+    "dashboard": {
+        "profile": {
+            "editProfile": "プロファイル編集"
+        },
+        "editProfile": {
+            "returnToProfile": "プロフィールに戻る",
+            "editProfile": "プロフィール編集",
+            "customizeProfile": "旅の仲間にどう見えるかをカスタマイズし、アカウント情報を管理します。",
+            "pictureLabel": "プロフィール写真",
+            "pictureHint": "JPEGまたはPNG。最大800Kまで。",
+            "uploadNew": "新しくアップロード",
+            "remove": "削除",
+            "nameLabel": "名",
+            "lastNameLabel": "姓",
+            "lastNamePlaceholder": "ロッシ",
+            "emailLabel": "メールアドレス",
+            "bioLabel": "自己紹介 / キャッチフレーズ",
+            "saveChanges": "変更を保存",
+            "dangerZoneTitle": "危険ゾーン",
+            "dangerZoneDescription": "アカウントの削除は永久的です。すべての旅行履歴、アップロードした思い出、友達とのつながりは失われます。この操作は元に戻せません。",
+            "deleteAccount": "アカウントを削除",
+            "bioPlaceholder": "ご自身について何か教えてください",
+            "deleteConfirmTitle": "本当によろしいですか?",
+            "deleteConfirmDescription": "アカウントは完全に削除されます。この操作は元に戻せません。",
+            "cancel": "キャンセル"
+        }
+    }
+}

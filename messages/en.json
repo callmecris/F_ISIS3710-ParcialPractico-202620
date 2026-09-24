@@ -1,0 +1,81 @@
+{
+    "nav": {
+        "appName": "Voyage",
+        "tagline": "Curated Discovery",
+        "myTrips": "My Trips",
+        "exploreActivities": "Explore Activities",
+        "profileAndFriends": "Profile and Friends",
+        "help": "Help",
+        "signOut": "Sign Out"
+    },
+    "auth": {
+        "login": {
+            "title": "Welcome Back",
+            "emailLabel": "Email address",
+            "emailPlaceholder": "you@company.com",
+            "passwordLabel": "Password",
+            "showPassword": "Show password",
+            "hidePassword": "Hide password",
+            "forgotPassword": "Forgot password",
+            "submit": "Log In",
+            "noAccount": "Don't have an account?",
+            "signUp": "Sign Up",
+            "submitting": "Submitting..."
+        },
+        "register": {
+            "emailLabel": "Email address",
+            "emailPlaceholder": "you@company.com",
+            "passwordLabel": "Password",
+            "usernameLabel": "Username",
+            "usernamePlaceholder": "Fah123",
+            "nameLabel": "Name",
+            "namePlaceholder": "Y",
+            "lastNameLabel": "Last Name",
+            "lastNamePlaceholder": "ou",
+            "submit": "Register",
+            "submitting": "Registering..."
+        },
+        "forgotPassword": {
+            "instructions": "Please enter your registered email address:",
+            "emailLabel": "Email address",
+            "emailPlaceholder": "you@company.com",
+            "submit": "Get Code",
+            "submitting": "Sending..."
+        },
+        "resetPassword": {
+            "codeLabel": "Code",
+            "passwordLabel": "Password",
+            "confirmPasswordLabel": "Confirm Password",
+            "passwordsDontMatch": "Passwords don't match",
+            "submit": "Reset Password",
+            "submitting": "Resetting..."
+        }
+    },
+    "dashboard": {
+        "profile": {
+            "editProfile": "Edit Profile"
+        },
+        "editProfile": {
+            "returnToProfile": "Back to profile",
+            "editProfile": "Edit Profile",
+            "customizeProfile": "Customize how you appear to your travel crew and manage your account details.",
+            "pictureLabel": "Profile Picture",
+            "pictureHint": "JPEG or PNG. Max size of 800K.",
+            "uploadNew": "Upload New",
+            "remove": "Remove",
+            "nameLabel": "Name",
+            "lastNameLabel": "Last Name",
+            "lastNamePlaceholder": "Rossi",
+            "emailLabel": "Email Address",
+            "bioLabel": "Bio / Tagline",
+            "saveChanges": "Save Changes",
+            "dangerZoneTitle": "Danger Zone",
+            "dangerZoneDescription": "Deleting your account is permanent. All your trip history, uploaded memories, and friend connections will be lost forever. This action cannot be undone.",
+            "deleteAccount": "Delete Account",
+            "bioPlaceholder": "Tell us something about yourself.",
+            "deleteConfirmTitle": "Are you sure?",
+            "deleteConfirmDescription": "This will permanently delete your account. This action cannot be undone.",
+            "cancel": "Cancel"
+        }
+    }
+}
